@@ -23,6 +23,7 @@ module SessionsHelper
         @current_user = user
       end
     end
+  end
 
   #現在ログイン中のユーザー
   def current_user
