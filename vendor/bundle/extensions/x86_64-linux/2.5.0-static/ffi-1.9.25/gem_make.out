@@ -1,5 +1,5 @@
 current directory: /mnt/c/Users/bass_/Documents/enviroment/hello_app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c
-/home/chihara/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20180905-249-88fnyu.rb extconf.rb
+/home/chihara/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181031-11251-um6tx4.rb extconf.rb
 /home/chihara/.rbenv/versions/2.5.1/lib/ruby/2.5.0/mkmf.rb:1553: warning: Insecure world writable dir /home/chihara/.rbenv/versions in PATH, mode 040777
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi... no
@@ -158,4 +158,4 @@ compiling Types.c
 compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.so
-/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20180905-249-u22zo5
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20181031-11251-q126mf

@@ -1,5 +1,5 @@
 current directory: /mnt/c/Users/bass_/Documents/enviroment/hello_app/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
-/home/chihara/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181005-16528-1jcmf74.rb extconf.rb
+/home/chihara/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181031-11251-as4rao.rb extconf.rb
 creating Makefile
 
 current directory: /mnt/c/Users/bass_/Documents/enviroment/hello_app/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
@@ -16,4 +16,4 @@ linking shared-object bcrypt_ext.so
 
 current directory: /mnt/c/Users/bass_/Documents/enviroment/hello_app/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20181005-16528-1swhs16
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20181031-11251-1l0qll7

@@ -1,5 +1,5 @@
 current directory: /mnt/c/Users/bass_/Documents/enviroment/hello_app/vendor/bundle/gems/puma-3.9.1/ext/puma_http11
-/home/chihara/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20180905-14005-1585z5.rb extconf.rb
+/home/chihara/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181031-11251-18gxm3c.rb extconf.rb
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -48,4 +48,4 @@ linking shared-object puma/puma_http11.so
 
 current directory: /mnt/c/Users/bass_/Documents/enviroment/hello_app/vendor/bundle/gems/puma-3.9.1/ext/puma_http11
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20180905-14005-1lp9ppp/puma
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20181031-11251-qhh2vd/puma

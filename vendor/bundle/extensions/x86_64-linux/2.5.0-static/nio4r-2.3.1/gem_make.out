@@ -1,5 +1,5 @@
 current directory: /mnt/c/Users/bass_/Documents/enviroment/hello_app/vendor/bundle/gems/nio4r-2.3.1/ext/nio4r
-/home/chihara/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20180905-249-1yo2a8w.rb extconf.rb
+/home/chihara/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181031-11251-8xwfc1.rb extconf.rb
 checking for unistd.h... yes
 checking for sys/select.h... yes
 checking for port_event_t in poll.h... no
@@ -214,4 +214,4 @@ linking shared-object nio4r_ext.so
 
 current directory: /mnt/c/Users/bass_/Documents/enviroment/hello_app/vendor/bundle/gems/nio4r-2.3.1/ext/nio4r
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20180905-249-1oinwum
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20181031-11251-ue9tua

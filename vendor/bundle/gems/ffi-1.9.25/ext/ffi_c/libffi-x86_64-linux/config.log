@@ -14,7 +14,7 @@ hostname = DESKTOP-KE9FRIH
 uname -m = x86_64
 uname -r = 4.4.0-17134-Microsoft
 uname -s = Linux
-uname -v = #137-Microsoft Thu Jun 14 18:46:00 PST 2018
+uname -v = #345-Microsoft Wed Sep 19 17:47:00 PST 2018
 
 /usr/bin/uname -p = unknown
 /bin/uname -X     = unknown
@@ -30,6 +30,8 @@ uname -v = #137-Microsoft Thu Jun 14 18:46:00 PST 2018
 PATH: /home/chihara/.rbenv/versions/2.5.1/bin
 PATH: /home/chihara/.rbenv/libexec
 PATH: /home/chihara/.rbenv/plugins/ruby-build/bin
+PATH: /home/chihara/.ndenv/shims
+PATH: /home/chihara/.ndenv/bin
 PATH: /home/chihara/.rbenv/shims
 PATH: /usr/local/sbin
 PATH: /usr/local/bin
@@ -56,6 +58,7 @@ PATH: /mnt/c/Users/bass_/AppData/Local/atom/bin
 PATH: /mnt/c/Users/bass_/AppData/Roaming/npm
 PATH: /mnt/c/Users/bass_/AppData/Local/Programs/Microsoft VS Code/bin
 PATH: /mnt/c/Users/bass_/AppData/Local/hyper/app-2.0.0/resources/bin
+PATH: /mnt/c/Program Files/heroku/bin
 PATH: /snap/bin
 
 
