@@ -24,7 +24,6 @@ class User < ApplicationRecord
     #永続セッションのための記憶
     def remember
       self.remember_token = User.new_token
-      #self?
       update_attribute(:remember_digest, User.digest(remember_token))
     end
 
