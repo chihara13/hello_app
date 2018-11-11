@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   before_action :correct_user,   only: [:edit, :update]
 
   def index
-    @users = User.paginamte(page: params[:page])
+    @users = User.paginate(page: params[:page])
   end
 
   def show
@@ -51,7 +51,7 @@ class UsersController < ApplicationController
     def logged_in_user
       unless logged_in?
         store_location
-        falsh[:danger] = "Please log in."
+        flash[:danger] = "Please log in."
         redirect_to login_url
       end
     end
@@ -59,7 +59,7 @@ class UsersController < ApplicationController
     #正しいユーザーかどうか確認
     def correct_user
       @user= User.find(params[:id])
-      redirect_to(root_url) unless @user == correct_user?(@user)
+      redirect_to(root_url) unless @user == current_user?(@user)
     end
 
 end
