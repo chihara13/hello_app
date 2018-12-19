@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  jancode: MyString
+  author: MyString
+  release: 2018-12-16
+  price: 1
+  genre: MyString
+  publisher: MyString
+
+two:
+  title: MyString
+  jancode: MyString
+  author: MyString
+  release: 2018-12-16
+  price: 1
+  genre: MyString
+  publisher: MyString
