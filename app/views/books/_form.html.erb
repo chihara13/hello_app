@@ -10,43 +10,36 @@
       </ul>
     </div>
   <% end %>
+    
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <%= form_for(@book) do |f| %>
+  
+        <%= form.label :タイトル %>
+        <%= form.text_field :title, id: :book_title %>
+      
+        <%= form.label :JANコード %>
+        <%= form.text_field :jancode, id: :book_jancode %>
 
-  <div class="field">
-    <%= form.label :タイトル %>
-    <%= form.text_field :title, id: :book_title %>
-  </div>
+        <%= form.label :作者 %>
+        <%= form.text_field :author, id: :book_author %>
 
-  <div class="field">
-    <%= form.label :JANコード %>
-    <%= form.text_field :jancode, id: :book_jancode %>
-  </div>
+        <%= form.label :発行日 %>
+        <%= form.text_field :release, :class => 'date-picker', id: :book_release %>
 
-  <div class="field">
-    <%= form.label :作者 %>
-    <%= form.text_field :author, id: :book_author %>
-  </div>
+        <%= form.label :価格 %>
+        <%= form.text_field :price, date: {autonumeric: {aSign: '¥', mDec: 0} }, id: :book_price %>
 
-  <div class="field">
-    <%= form.label :発行日 %>
-    <%= form.text_field :release, :class => 'date-picker', id: :book_release %>
+        <%= f.label :カテゴリ %>
+        <%= f.select :publisher, [["小説", "小説"], ["児童書", "児童書"], ["エンタメ", "エンタメ"], ["歴史", "歴史"], ["政治", "政治"], ["経済", "経済"], ["ビジネス", "ビジネス"], ["語学", "語学"],["人文", "人文"], ["芸術", "芸術"], ["IT", "IT"], ["医療", "医療"], ["趣味", "趣味"], ["ダイエット", "ダイエット"], ["洋書", "洋書"]], {include_blank: '選択してください'}, id: :book_genre %>
+        
+        <%= form.label :出版社 %>
+        <%= form.text_field :publisher, id: :book_publisher %>
+        
+        <%= form.submit "本を登録する", date: {confirm: '保存していいですか？', disable_with: '処理中…'}, class: "btn btn-primary" %>
+      <% end %>
+    </div>
   </div>
-
-  <div class="field">
-    <%= form.label :価格 %>
-    <%= form.number_field :price, id: :book_price %>
-  </div>
-
-  <div class="field">
-    <%= form.label :ジャンル %>
-    <%= form.text_field :genre, id: :book_genre %>
-  </div>
-
-  <div class="field">
-    <%= form.label :出版社 %>
-    <%= form.text_field :publisher, id: :book_publisher %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
-  </div>
+    
 <% end %>
+
